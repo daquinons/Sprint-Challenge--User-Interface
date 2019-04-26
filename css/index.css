@@ -73,9 +73,18 @@ p {
 
 header nav {
     display: flex;
-    justify-content: space-between;
     align-items: baseline;
     margin: 20px 0px 30px;
+}
+
+header nav .logo {
+    margin-right: 50px;
+}
+
+header nav .links {
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
 }
 
 header nav a {

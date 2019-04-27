@@ -240,13 +240,14 @@ header .jumbo {
   justify-content: center;
 }
 
-.middle-content-about {
+.about-page .middle-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  border-bottom: 0px;
 }
 
-.middle-content-about .box {
+.about-page .middle-content .box {
   width: 371px;
   margin-bottom: 50px;
   margin-right: 1px;
@@ -311,8 +312,8 @@ footer nav a {
   background: forestgreen;
 }
 
-#darkorchild {
-  background: darkorchild;
+#darkorchid {
+  background: darkorchid;
 }
 
 #hotpink {
